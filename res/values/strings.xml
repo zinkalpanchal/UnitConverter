@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Unit Converter</string>
+    <string name="action_settings">Settings</string>
+    <color name="myColor">#eeeeee</color>
+    <color name="appBackgroundColor">#000000</color>
+
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="miles">to Miles</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="kmh">to Km/h</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="calc">Calculate</string>
+    
+    <!-- *** Weight metrics *** -->
+	<string name="Weight_Milligrams">MiliGram</string>
+	<string name="Weight_KGs">Kilogram</string>
+	<string name="Weight_Grams">Gram</string>
+	<string name="Weight_Pounds">Pound</string>
+	<string name="Weight_Tonnes">Tonne</string>
+	
+	<!-- *** Length metrics *** -->
+	<string name="Length_Inches">Inch</string>
+	<string name="Length_Foots">Foot</string>
+	<string name="Length_Meters">Meter</string>
+	<string name="Length_Kilometres">Kilometre</string>
+	<string name="Length_Miles">Mile</string>
+	
+	<!-- *** Temperature metrics *** -->
+	<string name="Temperature_Celsius">Celsius</string>
+	<string name="Temperature_Fahrenheit">Fahrenheit</string>
+	<string name="Temperature_Rankine">Rankine</string>
+	<string name="Temperature_Reaumur">Reaumur</string>
+	<string name="Temperature_Kelvin">Kelvin</string>
+	
+	<!-- *** Area metrics *** -->
+	<string name="Area_Acre">Acre</string>
+	<string name="Area_Hectare">Hectare</string>
+	<string name="Area_Square_Foot">Square Foot</string>
+	<string name="Area_Square_Metres">Square Metres</string>
+	<string name="Area_Square_Kilometres">Square Kilometres</string>
+	
+	<!-- *** Time metrics *** -->
+	<string name="Time_Milliseconds">Millisecond</string>
+	<string name="Time_Seconds">Second</string>
+	<string name="Time_Minutes">Minute</string>
+	<string name="Time_Hours">Hour</string>
+	<string name="Time_Days">Day</string>
+	
+	<!-- *** DigitalStorage metrics *** -->
+	<string name="DigitalStorage_Bits">Bit</string>
+	<string name="DigitalStorage_Kilobytes">Kilobyte</string>
+	<string name="DigitalStorage_Megabytes">Megabyte</string>
+	<string name="DigitalStorage_Gigabytes">Gigabyte</string>
+	<string name="DigitalStorage_Terabytes">Terabyte</string>
+    <string name="UnitList">Select unit type</string>
+	
+    <string name="Spinner_Area">Area</string>
+	<string name="Spinner_DigitalStorage">DigitalStorage</string>
+	<string name="Spinner_Length">Length</string>
+	<string name="Spinner_Temprature">Temprature</string>
+	<string name="Spinner_Time">Time</string>
+	<string name="Spinner_Weight">Weight</string>
+	
+    <string-array name="metric_type">
+        <item>@string/Spinner_Area</item>
+        <item>@string/Spinner_DigitalStorage</item>
+        <item>@string/Spinner_Length</item>
+        <item>@string/Spinner_Temprature</item>
+        <item>@string/Spinner_Time</item>
+        <item>@string/Spinner_Weight</item>
+    </string-array>
+</resources>

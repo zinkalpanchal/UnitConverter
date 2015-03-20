@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestingMethods (1)" project="UnitConverter" tests="5" started="5" failures="1" errors="0" ignored="0">
+  <testsuite name="Test_Device [emulator-5554]" time="0.642">
+    <testsuite name="com.example.unitConverter.TestingMethods" time="0.642">
+      <testcase name="testAcre_To_Hectare " classname="com.example.unitConverter.TestingMethods" time="0.092"/>
+      <testcase name="testCelsius_To_Fahrenheit " classname="com.example.unitConverter.TestingMethods" time="0.15"/>
+      <testcase name="testCelsius_To_Kelvin " classname="com.example.unitConverter.TestingMethods" time="0.15"/>
+      <testcase name="testDay_To_Millisecond " classname="com.example.unitConverter.TestingMethods" time="0.125"/>
+      <testcase name="testFahrenheit_To_Celsius " classname="com.example.unitConverter.TestingMethods" time="0.125">
+        <failure>junit.framework.AssertionFailedError: Expected Celsius: -20.5556. Actual Celsius: -20.555556 expected same:&lt;-20.5556&gt; was not:&lt;-20.555556&gt;&#13;
+at com.example.unitConverter.TestingMethods.testFahrenheit_To_Celsius(TestingMethods.java:54)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

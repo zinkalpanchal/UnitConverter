@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/appBackgroundColor" >
+
+	<!-- Selection -->
+
+	<Spinner
+	    android:id="@+id/mertricselector"
+	    android:layout_width="180dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/edittext_bg"
+	    android:prompt="@array/metric_type" />
+    
+	<TextView
+        android:id="@+id/unit1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/unitTextBox1"
+        android:labelFor="@id/unitTextBox1"
+        android:textColor="@color/myColor"
+        android:layout_alignLeft="@+id/unit2TextView"
+        android:text="@string/Length_Inches" />
+	
+	<!-- Unit_4 set -->
+	
+	<!-- Unit_5 set -->
+
+    <EditText
+        android:id="@+id/unitTextBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/spinnerselector"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="true"
+        android:textColor="@color/myColor"
+        android:textCursorDrawable="@null" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/unitTextBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unitTextBox5"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/spinnerselector"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="true"
+        android:textColor="@color/myColor"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/unitTextBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unitTextBox4"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/spinnerselector"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="true"
+        android:textColor="@color/myColor"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/unitTextBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unitTextBox3"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/spinnerselector"
+        android:background="@drawable/edittext_bg"
+        android:drawableBottom="@android:color/white"
+        android:drawableLeft="@android:color/white"
+        android:drawableRight="@android:color/white"
+        android:drawableTop="@android:color/white"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="true"
+        android:textColor="@color/myColor"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/unitTextBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unitTextBox2"
+        android:layout_alignLeft="@+id/mertricselector"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="true"
+        android:textColor="@color/myColor"
+        android:textCursorDrawable="@null" >
+
+	<requestFocus />
+	</EditText>
+	
+    <TextView
+        android:id="@+id/unit5TextView"
+        android:labelFor="@id/unitTextBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/unitTextBox5"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/myColor"
+        android:text="@string/Length_Miles" />
+
+    <TextView
+        android:id="@+id/unit4TextView"
+        android:layout_width="wrap_content"
+        android:labelFor="@id/unitTextBox4"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unitTextBox5"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/myColor"
+        android:text="@string/Length_Kilometres" />
+
+    <TextView
+        android:id="@+id/unit2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/unitTextBox2"
+        android:layout_alignParentLeft="true"
+        android:labelFor="@id/unitTextBox2"
+        android:text="@string/Length_Foots"
+        android:textColor="@color/myColor" />
+
+    <TextView
+        android:id="@+id/unit3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unitTextBox4"
+        android:layout_alignParentLeft="true"
+        android:labelFor="@id/unitTextBox3"
+        android:text="@string/Length_Meters"
+        android:textColor="@color/myColor" />
+
+    <TextView
+        android:id="@+id/spinnerselector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mertricselector"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/mertricselector"
+        android:drawableBottom="@android:color/white"
+        android:drawableLeft="@android:color/white"
+        android:drawableRight="@android:color/white"
+        android:drawableTop="@android:color/white"
+        android:ems="10"
+        android:labelFor="@+id/mertricselector"
+        android:text="@string/UnitList"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</RelativeLayout>
