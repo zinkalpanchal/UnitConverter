@@ -1,11 +1,11 @@
 package com.example.unitConverter;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
+import junit.framework.TestCase;
 
 import org.junit.Test;
 
-import junit.framework.TestCase;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class TestingMethods extends TestCase 
 {

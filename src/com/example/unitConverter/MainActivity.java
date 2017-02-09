@@ -2,6 +2,7 @@ package com.example.unitConverter;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -773,6 +774,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener
     		unit4TextView = (TextView) findViewById(R.id.unit4TextView);
     		unit5TextView = (TextView) findViewById(R.id.unit5TextView);
     		metricselector = (Spinner) parent;
+			((TextView) parent.getChildAt(0)).setTextColor(Color.WHITE);
         }
         catch(Exception es)
         {
